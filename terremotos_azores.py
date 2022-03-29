@@ -11,11 +11,8 @@ import datetime
 import os
 
 
-directorio = os.path.expanduser("Inserta el directorio")
-
-
 # Cargar datos:
-df = pd.read_csv(directorio+"Datos\\Update_29-03-22.csv")
+df = pd.read_csv("Update_29-03-22.csv")
 st.set_page_config(layout='wide')
 
 # ----------------------------------------------
